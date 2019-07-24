@@ -180,7 +180,7 @@ body{
     color: #fff;
 }
 /* Tablet */
-/* @media screen and (max-width: 900px) and (min-width: 600px) {
+@media screen and (max-width: 900px) and (min-width: 600px) {
 
     .site-title{
         color: white;
@@ -188,7 +188,7 @@ body{
         font-family: 'Raleway';
         font-style: bold;
         font-weight: 900 ;
-        font-size: 35.3999px;
+        font-size: 39.3999px;
         line-height: 53px;
         letter-spacing: 1;
     }
@@ -198,7 +198,7 @@ body{
         font-family: 'Raleway';
         font-style: bold;
         font-weight: 900;
-        font-size: 35.3999px;
+        font-size: 39.3999px;
         line-height: 53px;
         letter-spacing: 1;
     }
@@ -216,11 +216,11 @@ body{
         font-size: 30px;
     }
     .mores .col-md-3{
-        margin-right: 40px;
+        margin-right: 45px;
     }
-} */
+}
 /* Mobile */
-/* @media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .site-title{
         color: white;
@@ -228,7 +228,7 @@ body{
         font-family: 'Raleway';
         font-style: bold;
         font-weight: 900;
-        font-size: 14.3999px;
+        font-size: 35.3999px;
         line-height: 50px;
         letter-spacing: 1;
     }
@@ -238,7 +238,7 @@ body{
         font-family: 'Raleway';
         font-style: bold;
         font-weight: 900;
-        font-size: 9.3999px;
+        font-size: 35.3999px;
         line-height: 50px;
         letter-spacing: 1;
     }
@@ -246,7 +246,7 @@ body{
         margin-bottom: 35px;
     }
     
-} */
+}
  /* Extra Small Devices, Phones */ 
  @media only screen and (min-width : 480px) {
      
