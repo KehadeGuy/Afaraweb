@@ -186,20 +186,20 @@ body{
         text-transform: uppercase;
         font-family: 'Raleway';
         font-style: bold;
-        font-weight: 900 ;
-        font-size: 35.3999px;
-        line-height: 53px;
-        letter-spacing: 1;
+        font-weight: 900!important;
+        font-size: 35.3999px !important;
+        line-height: 53px !important;
+        letter-spacing: 1 !important;
     }
     .site-title1{
         color: white;
         text-transform: uppercase;
         font-family: 'Raleway';
         font-style: bold;
-        font-weight: 900;
-        font-size: 35.3999px;
-        line-height: 53px;
-        letter-spacing: 1;
+        font-weight: 900 !important;
+        font-size: 35.3999px !important;
+        line-height: 53px !important;
+        letter-spacing: 1 !important;
     }
     .styl{
         background: #FFFFFF;
@@ -212,10 +212,10 @@ body{
     .site.desc{
         color: white;
         font-family: 'Raleway';
-        font-size: 30px;
+        font-size: 30px !important;
     }
     .mores .col-md-3{
-        margin-right: 40px;
+        margin-right: 40px !important;
     }
 }
 /* Mobile */
