@@ -18,7 +18,7 @@ body{
 }
 .landing{
     background-image: url(../img/Group_9new.png);
-    height: 102vh;
+    min-height: 100vh;
 }
 .section-1{
     margin-top: 10%;
