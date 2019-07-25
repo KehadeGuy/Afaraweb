@@ -287,7 +287,9 @@ body{
     width: 12%;
 }
   .nav-link{
-    margin: 0;
+    margin: 1px;
+    font-size: 14px;
+    margin-bottom: 14px;
   }
     .texts{
       color: #940A0A;
@@ -328,6 +330,13 @@ body{
     height: 50px;
 
   }
+  .complog{
+    width: 50%;
+    height: 100%;
+}
+.copyr{
+  margin-right: 23%;
+}
   .show{
     margin-top: -20px;
   }
@@ -339,7 +348,9 @@ body{
     width: 30%;
 }
   .nav-link{
-    margin: 0;
+        margin: 1px;
+        font-size: 14px;
+        margin-bottom: 14px;
   }
     .texts{
       color: #940A0A;
