@@ -185,7 +185,6 @@ body{
         width: 60%;
         height: 100%;
     }
-
     .site-title{
         color: white;
         text-transform: uppercase;
@@ -230,6 +229,9 @@ body{
         margin: 2px;
         font-size: 9px;
 
+    }
+    .taa{
+        margin-left: 20%;
     }
     .complog{
         width: 50%;
