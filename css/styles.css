@@ -245,6 +245,17 @@ body{
     .mores .col-md-3{
         margin-bottom: 35px;
     }
+    .styl{
+        background: #FFFFFF;
+        box-shadow: -6.21212px 6.21212px 12.4242px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 15.5px;
+        color: #960C0C;
+        width: 30%;
+        padding: 5px 5px;
+    }
+    .clea{
+        margin-top: 15%;
+    }
     
 }
  /* Extra Small Devices, Phones */ 
