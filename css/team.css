@@ -265,6 +265,18 @@ body{
       height: 50px;
   
     }
+    .complog{
+        width: 70%;
+        height: 100%;
+    }
+    .copyr{
+      margin-right: 23%;
+    }
+    .nav-link{
+        margin: 1px;
+        font-size: 14px;
+        margin-bottom: 16px;
+  }
     .show{
       margin-top: -20px;
     }
