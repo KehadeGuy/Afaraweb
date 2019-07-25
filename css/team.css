@@ -53,7 +53,7 @@ body{
 }
 .cont-2{
     background-image: url(../img/Subtract.png);
-    min-height: 100vh;
+    min-height: 70vh;
     background-repeat: no-repeat;
     /* height: 90vh; */
     background-size: cover;
@@ -200,6 +200,60 @@ body{
 .colss{
     color: #777777;
 }
+/* Tablet */
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .lands{
+      margin: 0;
+    }
+    .my-img{
+      text-align: center;
+    
+  
+    }
+    .show{
+      margin-top: -20px;
+    }
+    .styl{
+      background: #FFFFFF;
+      box-shadow: -6.21212px 6.21212px 12.4242px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 15.5px;
+      color: #960C0C !important;
+      width: 12%;
+  }
+    .nav-link{
+      margin: 0;
+    }
+    .cont-2{
+        min-height: 50vh;
+    }
+      .texts{
+        color: #940A0A;
+        text-transform: uppercase;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22.3999px;
+  
+    }
+    .note{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 12.2px;
+    }
+    a{
+      cursor: pointer;
+    }
+    .my-img{
+      text-align: center;
+      margin-top: 2%;
+    }
+  
+  
+    
+  }
+  
+/* Mobile */
 @media screen and (max-width: 600px) {
     .lands{
       margin: 0;
