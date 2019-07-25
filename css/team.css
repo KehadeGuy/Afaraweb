@@ -114,8 +114,7 @@ body{
 .copyr{
     color: #B9B9B9;
     font-size: 14px;
-    margin-top: 9px;
-
+    padding-top: 7px;
 }
 .popup {
     height: 100vh;
@@ -270,7 +269,7 @@ body{
     .copyr{
         margin-right: 32%;
         font-size: 11px;
-        padding-top: 14px;
+        padding-top: 10px;
     }
     .nav-link{
         margin: 1px;
