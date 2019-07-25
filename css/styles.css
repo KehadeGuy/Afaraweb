@@ -181,6 +181,10 @@ body{
 }
 /* Tablet */
 @media screen and (max-width: 900px) and (min-width: 600px) {
+    .complog{
+        width: 60%;
+        height: 100%;
+    }
 
     .site-title{
         color: white;
@@ -235,6 +239,7 @@ body{
         font-family: 'Raleway';
         font-size: 12px;
         margin-top: 5px;
+        margin-bottom: -8px;
     }
         .site-title{
             color: white;
