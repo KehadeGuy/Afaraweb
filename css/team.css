@@ -53,6 +53,10 @@ body{
 }
 .cont-2{
     background-image: url(../img/Subtract.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    /* height: 90vh; */
+    background-size: cover;
 }
 .sits{
     padding-top: 100px;
@@ -172,16 +176,6 @@ body{
       font-size: 1.4rem;
       margin-bottom: 4rem;
       margin-top: -2rem;
-      /* -moz-column-count: 1;
-      -moz-column-gap: 4rem;
-      -moz-column-rule: 1px solid #eee;
-      column-count: 1;
-      column-gap: 4rem;
-      column-rule: 1px solid #eee;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
-      -webkit-hyphens: auto;
-      hyphens: auto; } */
     }
 .heading-secondary{
     color: #810B0B;
@@ -206,3 +200,60 @@ body{
 .colss{
     color: #777777;
 }
+@media screen and (max-width: 600px) {
+    .lands{
+      margin: 0;
+      margin-top: -10%;
+    }
+  
+    .last-one{
+      width: 200px;
+      height: 50px;
+  
+    }
+    .show{
+      margin-top: -20px;
+    }
+    .styl{
+      background: #FFFFFF;
+      box-shadow: -6.21212px 6.21212px 12.4242px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 15.5px;
+      color: #960C0C !important;
+      width: 30%;
+  }
+    .nav-link{
+      margin: 0;
+    }
+      .texts{
+        color: #940A0A;
+        text-transform: uppercase;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22.3999px;
+  
+    }
+    .note{
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 12px;
+    }
+    a{
+      cursor: pointer;
+    }
+    .my-img{
+      text-align: center;
+      margin-top: 9%;
+    }
+    /* .faces p{
+        margin-left: 25%;
+    } */
+    /* .sit2{
+        margin-left: 100px;
+    } */
+    .faces{
+        margin-left: 23%;
+    }
+    
+  }
