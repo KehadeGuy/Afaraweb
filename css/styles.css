@@ -261,8 +261,9 @@ body{
             box-shadow: -6.21212px 6.21212px 12.4242px rgba(0, 0, 0, 0.2);
             border-radius: 0px 15.5px;
             color: #960C0C;
-            width: 30%;
-            padding: 5px 5px;
+            width: 23%;
+            padding: 0 auto;
+            
         }
         .clea{
             margin-top: 15%;
