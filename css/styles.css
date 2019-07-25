@@ -140,16 +140,7 @@ body{
       font-size: 1.4rem;
       margin-bottom: 4rem;
       margin-top: -2rem;
-      /* -moz-column-count: 1;
-      -moz-column-gap: 4rem;
-      -moz-column-rule: 1px solid #eee;
-      column-count: 1;
-      column-gap: 4rem;
-      column-rule: 1px solid #eee;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
-      -webkit-hyphens: auto;
-      hyphens: auto; } */
+      
     }
 .heading-secondary{
     color: #810B0B;
@@ -166,7 +157,6 @@ body{
     font-weight: 600;
     font-size: 20px;
     line-height: 18px;
-    /* identical to box height */
     letter-spacing: -0.03em;
 
     color: #777777;
@@ -231,7 +221,9 @@ body{
 
     }
     .copyr{
-        margin-right: 23%;
+        margin-right: 32%;
+        font-size: 11px;
+        padding-top: 10px;
     }
     .taa{
         margin-left: 20%;

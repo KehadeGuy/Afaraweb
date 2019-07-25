@@ -55,7 +55,6 @@ body{
     background-image: url(../img/Subtract.png);
     min-height: 70vh;
     background-repeat: no-repeat;
-    /* height: 90vh; */
     background-size: cover;
 }
 .sits{
@@ -192,7 +191,6 @@ body{
     font-weight: 600;
     font-size: 20px;
     line-height: 18px;
-    /* identical to box height */
     letter-spacing: -0.03em;
 
     color: #777777;
@@ -270,7 +268,9 @@ body{
         height: 100%;
     }
     .copyr{
-      margin-right: 23%;
+        margin-right: 32%;
+        font-size: 11px;
+        padding-top: 14px;
     }
     .nav-link{
         margin: 1px;
