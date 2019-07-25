@@ -282,10 +282,11 @@ body{
     margin: 0;
   }
 
-  /* .last-one{
-    background-color:#910606;
+  .last-one{
+    width: 200px;
+    height: 50px;
 
-  } */
+  }
   .show{
     margin-top: -20px;
   }
