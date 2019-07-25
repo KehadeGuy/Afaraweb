@@ -56,8 +56,7 @@ body{
     min-height: 100vh;
     background-repeat: no-repeat;
     /* height: 90vh; */
-    /* background-size: cover;
-    background-attachment: fixed; */
+    background-size: cover;
 }
 .anchs{
     text-decoration: none !important;
@@ -300,11 +299,14 @@ body{
       font-family: 'Raleway';
       font-style: normal;
       font-weight: 900;
-      font-size: 20.3999px;
+      font-size: 28.3999px;
 
   }
   .note{
-    font-size: 12px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12.9px;
   }
   a{
     cursor: pointer;
