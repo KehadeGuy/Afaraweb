@@ -271,6 +271,11 @@ body{
 .my-img{
   text-align: center;
 }
+/* Tablet */
+/* @media screen and (max-width: 900px) and (min-width: 600px) {
+
+  
+} */
 
 /* Mobile */
 @media screen and (max-width: 600px) {
@@ -278,11 +283,10 @@ body{
     margin: 0;
   }
 
-  .last-one{
+  /* .last-one{
     background-color:#910606;
 
-  }
-
+  } */
   .show{
     margin-top: -20px;
   }
@@ -290,18 +294,26 @@ body{
   .nav-link{
     margin: 0;
   }
+    .texts{
+      color: #940A0A;
+      text-transform: uppercase;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 20.3999px;
 
+  }
+  .note{
+    font-size: 12px;
+  }
   a{
     cursor: pointer;
   }
-  /* .cont-2{
-    background-image: url(../img/Subtract.png);
-    min-height: 150%;
-    background-repeat: no-repeat;
-    
-  } */
   .my-img{
     text-align: center;
     margin-top: 9%;
   }
+
+  
+  
 }
