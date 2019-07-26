@@ -21,7 +21,7 @@ body{
     min-height: 100vh;
 }
 .section-1{
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .styl{
     background: #FFFFFF;
@@ -77,6 +77,13 @@ body{
     font-size: 14px;
     padding-top: 7px;
 }
+.mds{
+    height: 40px;
+    margin-top: -8px;
+}
+/* #wgtmsr{
+    width:200px !important;   
+} */
 .popup {
     height: 100vh;
     width: 100%;
