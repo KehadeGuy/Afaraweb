@@ -70,16 +70,19 @@ body{
 }
 .foot{
     background-color:  #560505;
-    height: 39px;
-}
-.copyr{
-    color: #B9B9B9;
-    font-size: 14px;
-    padding-top: 7px;
-}
+    max-height: 5%;
+  }
+  .copyr{
+      color: #B9B9B9;
+      font-size: 14px;
+      padding-top: 7px;
+  }
 .mds{
-    height: 40px;
+    height: 35px;
     margin-top: -8px;
+}
+.md{
+    margin-top: -4px;
 }
 /* #wgtmsr{
     width:200px !important;   
@@ -112,21 +115,22 @@ body{
         color: #810B0B; }
     .popup__content {
       position: absolute;
-      top: 50%;
+      top: 60%;
       left: 50%;
-      transform: translate(-50%, -50%);
-      width: 75%;
+      transform: translate(-60%, -50%);
+      width: 5%;
       background-color: #fff;
       box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
-      border: 3px;
+      border: 3px solid #810B0B;
+      border-radius: 15px;
       display: table;
       overflow: hidden;
       opacity: 0;
-      transform: translate(-50%, -50%) scale(0.25);
+      transform: translate(-60%, -50%) scale(0.25);
       transition: all .5s .2s; }
     .popup:target .popup__content {
       opacity: 1;
-      transform: translate(-50%, -50%) scale(1); }
+      transform: translate(-50%, -60%) scale(1); }
     .popup__left {
       width: 33.333333333%;
       display: table-cell; }
@@ -149,7 +153,8 @@ body{
     text-align: center;
     font-family: 'Righteous';
     text-transform: capitalize;
-    font-size: 35px;
+    font-size: 30px;
+    font-weight: 600;
 }
 .heading-tertiary{
     color: #810B0B;
@@ -157,7 +162,7 @@ body{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 18px;
     letter-spacing: -0.03em;
 
@@ -170,6 +175,9 @@ body{
 .my-toggle{
     background-color: #2c0202;
     color: #fff;
+}
+.form-control{
+    width: 100%;
 }
 /* Tablet */
 @media screen and (max-width: 900px) and (min-width: 600px) {
@@ -229,6 +237,7 @@ body{
     }
     .taa{
         margin-left: 20%;
+        margin-bottom: 6%;
     }
     .complog{
         width: 50%;
