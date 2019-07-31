@@ -17,7 +17,7 @@ body{
     color: #00e8e8 !important;
 }
 .landing{
-    background-image: url(../img/Group_9new.png);
+    background-image: url(../img/Group1lami.svg);
     min-height: 100vh;
 }
 .section-1{
@@ -26,7 +26,7 @@ body{
 .styl{
     background: #FFFFFF;
     box-shadow: -6.21212px 6.21212px 12.4242px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 15.5px;
+    border-radius: 0px 20.5px;
     color: #960C0C !important;
 }
 .styls{
@@ -71,6 +71,7 @@ body{
 .foot{
     background-color:  #560505;
     max-height: 5%;
+    margin-top: -25px;
   }
   .copyr{
       color: #B9B9B9;

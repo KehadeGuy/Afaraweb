@@ -18,11 +18,11 @@ body{
 .active .nav-link{
     color: #00e8e8 !important;
 }
-.nav-item a.selected {
+/* .nav-item a.selected {
   border-bottom: 1px solid whitesmoke;
   padding-bottom: 7px;
-  border-radius: 10%; 
-}
+  border-radius: 2px;
+} */
 .navbar-brand{
     margin-left: 9% !important;
 }
@@ -32,10 +32,10 @@ body{
     margin-top: -7%;
 }
 .styl{
-    background: #FFFFFF;
-    box-shadow: -6.21212px 6.21212px 12.4242px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 15.5px;
-    color: #960C0C !important;
+  background: #FFFFFF;
+  box-shadow: -6.21212px 6.21212px 12.4242px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 20.5px;
+  color: #960C0C !important;
 }
 .styls{
     box-shadow: -6.21212px 6.21212px 12.4242px rgba(0, 0, 0, 0.2);
@@ -64,7 +64,7 @@ body{
 }
 .anchs{
     text-decoration: none !important;
-    color:#560505;
+    color: #5960A3;
 }
 .anchs:hover{
     color: #940A0A;
