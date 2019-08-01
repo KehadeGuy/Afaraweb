@@ -23,6 +23,16 @@ body{
   padding-bottom: 7px;
   border-radius: 10%; 
 } */
+.underline{
+  background-color: #fff;
+  width: 20px;
+  height: 5px;
+  position: relative;
+  right: 275px;
+  top: 17px;
+  border-radius: 2px
+
+}
 .navbar-brand{
     margin-left: 9% !important;
 }
@@ -130,7 +140,9 @@ body{
   z-index: 9999;
   opacity: 0;
   visibility: hidden;
-  transition: all .3s; }
+  transition: all .3s;
+  
+ }
   .popup:target {
     opacity: 1;
     visibility: visible; }
