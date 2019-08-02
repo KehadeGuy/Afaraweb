@@ -213,6 +213,18 @@ body{
 .my-img{
   text-align: center;
 }
+/* Bigger screens */
+@media screen and (min-width: 1680px){
+  .lands{
+    background-image: url(../img/Group\ 8.2.png);
+    height: 294px;
+    margin-top: -4%;
+  }
+  .sits{
+    padding-top: 250px;
+  }
+
+}
 /* Tablet */
 @media screen and (max-width: 900px) and (min-width: 600px) {
     .lands{
@@ -267,7 +279,7 @@ body{
 @media screen and (max-width: 600px) {
     .lands{
       margin: 0;
-      margin-top: -6%;
+      margin-top: -4%;
     }
   
     .last-one{
