@@ -217,8 +217,8 @@ body{
         font-family: 'Raleway';
         font-size: 30px;
     }
-    .mores .col-md-3{
-        margin-right: 45px;
+    .mores .col-md-2{
+        margin-right: 3rem !important;
     }
 }
 /* Mobile */
