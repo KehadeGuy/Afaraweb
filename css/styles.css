@@ -36,6 +36,33 @@ body{
     border-radius: 0px 25.5px;
     color: white;
 }
+/* Container needed to position the overlay. Adjust the width as needed */
+.cont{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Make the image to responsive */
+  .image{
+    width: 130px;
+    height: auto;
+  }
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+  }
+  /* When you mouse over the container, fade in the overlay icon*/
+  .cont:hover .overlay {
+    opacity: 1;
+  }
+  
 .siteland{
     margin-top: 8%;
     margin-bottom: 4%;
@@ -84,8 +111,11 @@ body{
     margin-top: -8px;
 }
 .md{
-    margin-top: -4px;
+    margin-top: -2px;
 }
+/* .mds{
+    margin-top: -9px;
+} */
 .popup {
     height: 100vh;
     width: 100%;
