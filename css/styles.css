@@ -113,9 +113,12 @@ body{
 .md{
     margin-top: -2px;
 }
-/* .mds{
-    margin-top: -9px;
-} */
+.books{
+    margin-left: -60px;
+}
+.linkedin{
+    margin-left: -120px;
+}
 .popup {
     height: 100vh;
     width: 100%;
@@ -250,6 +253,9 @@ body{
     .mores .col-md-2{
         margin-right: 3rem !important;
     }
+    .wale img{
+        width: 60%;
+    }
 }
 /* Mobile */
 @media screen and (max-width: 600px) {
@@ -313,7 +319,12 @@ body{
         .clea{
             margin-top: 15%;
         }
-    
+        .books{
+            margin-left: -80px;
+        }
+        .linkedin{
+            margin-left: -150px;
+        }
 }
  
 
