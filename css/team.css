@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:700&display=swap');
+html {
+  scroll-behavior: smooth;
+}
 
 body{
     margin: 0;
