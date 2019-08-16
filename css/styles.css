@@ -284,6 +284,9 @@ body{
         margin-top: 5px;
         margin-bottom: -8px;
     }
+    /* .wale a{
+        margin-right: 15px;
+    } */
         .site-title{
             color: white;
             text-transform: uppercase;
@@ -320,13 +323,19 @@ body{
             margin-top: 15%;
         }
         .books{
-            margin-left: -80px;
+            margin-left: -49px;
         }
         .linkedin{
-            margin-left: -150px;
+            margin-left: -100px;
         }
         .wale img{
             width: 40%;
+        }
+        .hey{
+            opacity: 0;
+        }
+        .overlay{
+            opacity: 1;
         }
 }
  
